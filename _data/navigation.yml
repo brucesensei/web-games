@@ -1,10 +1,10 @@
 - name: Home
-  link: /
+  link: /web-games/
 - name: Tic Tac Toe
-  link: /tic-tac-toe.html
+  link: /web-games/tic-tac-toe.html
 - name: Dice Roll
-  link: /dice.html
+  link: /web-games/dice.html
 - name: Drench
-  link: /drench.html
+  link: /web-games/drench.html
 - name: Number Guess
-  link: /number-guess.html
+  link: /web-games/number-guess.html
