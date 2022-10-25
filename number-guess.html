@@ -1,0 +1,18 @@
+---
+layout: default
+title: Number Guess
+---
+
+<h1>number Guess</h1>
+<h3>Guess a number between <span id="g-current-low">0</span> and <span id="g-current-high">100</span></h3>
+<p id="g-attempt-text" >Attempts remaining: <span id="g-attempts">10</span></p>
+
+<label id="g-guess-text" >GUESS</label><br>
+<input id="g-guess" value="" autocomplete="off" autofocus/><br>
+<button onclick="handleGuess()" type="button" class="btn btn-dark btn-lg" id="g-guess-button" >Submit</button>
+
+
+<p id="g-inform-user"><span id="g-guess-value"></span><span id="g-outcome"></span></p>
+
+<script src="/assets/js/number-guess.js"></script>
+ 

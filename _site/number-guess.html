@@ -1,0 +1,75 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Number Guess</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" 
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" 
+    crossorigin="anonymous">
+    <link rel="stylesheet" href="/assets/css/styles.css">
+    <!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>Number Guess</title>
+<meta name="generator" content="Jekyll v4.3.0" />
+<meta property="og:title" content="Number Guess" />
+<meta property="og:locale" content="en_US" />
+<link rel="canonical" href="http://localhost:4000/number-guess.html" />
+<meta property="og:url" content="http://localhost:4000/number-guess.html" />
+<meta property="og:type" content="website" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="Number Guess" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"WebPage","headline":"Number Guess","url":"http://localhost:4000/number-guess.html"}</script>
+<!-- End Jekyll SEO tag -->
+
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand" href="#">Games</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+          
+          <a class="nav-item nav-link" href="/">Home</a>
+          
+          <a class="nav-item nav-link" href="/tic-tac-toe.html">Tic Tac Toe</a>
+          
+          <a class="nav-item nav-link" href="/dice.html">Dice Roll</a>
+          
+          <a class="nav-item nav-link" href="/drench.html">Drench</a>
+          
+          <a class="nav-item nav-link" href="/number-guess.html">Number Guess</a>
+          
+        </div>
+      </div>
+    </nav>
+
+    <h1>number Guess</h1>
+<h3>Guess a number between <span id="g-current-low">0</span> and <span id="g-current-high">100</span></h3>
+<p id="g-attempt-text" >Attempts remaining: <span id="g-attempts">10</span></p>
+
+<label id="g-guess-text" >GUESS</label><br>
+<input id="g-guess" value="" autocomplete="off" autofocus/><br>
+<button onclick="handleGuess()" type="button" class="btn btn-dark btn-lg" id="g-guess-button" >Submit</button>
+
+
+<p id="g-inform-user"><span id="g-guess-value"></span><span id="g-outcome"></span></p>
+
+<script src="/assets/js/number-guess.js"></script>
+ 
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" 
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" 
+    crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" 
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" 
+    crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" 
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" 
+    crossorigin="anonymous"></script>
+  </body>
+  </html>
+  

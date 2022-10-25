@@ -1,0 +1,10 @@
+- name: Home
+  link: /
+- name: Tic Tac Toe
+  link: /tic-tac-toe.html
+- name: Dice Roll
+  link: /dice.html
+- name: Drench
+  link: /drench.html
+- name: Number Guess
+  link: /number-guess.html

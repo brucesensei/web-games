@@ -1,0 +1,255 @@
+/* ------------------dice roll---------------------------- */
+
+body {
+    background-color: lightslategray;
+    color: white;
+    text-align: center;
+    line-height: 0.5;
+}
+
+.d-title-box {
+    text-align: center;
+}
+
+    h1 {
+    display: inline;
+    margin-right: 3%;
+    font-family: 'Smokum', cursive;
+    font-size: 2rem; 
+}
+
+.d-dice-image {
+    width: 40px;
+    transform: rotate(20deg);
+    margin: 5px;
+}
+
+.d-board {
+    text-align: center;
+    height: 60%;
+    background-color: #254823;
+    opacity: 0.9;
+    background-image:  radial-gradient(#3fe067 0.7000000000000001px, transparent 0.7000000000000001px), radial-gradient(#3fe067 0.7000000000000001px, #254823 0.7000000000000001px);
+    background-size: 28px 28px;
+    background-position: 0 0,14px 14px;
+    border: 20px brown ridge;
+    border-radius: 10%;
+}
+
+.d-die {
+    width: 15%;
+    margin:  5% 7%;
+}
+
+#d-winner-image-one {
+    width: 4%;
+    visibility: hidden;
+}
+
+#d-winner-image-two {
+    width: 4%;
+    visibility: hidden; 
+}
+
+.d-round-box {
+    display: inline-block;
+    border: 3px white solid;
+    padding: 45px 20px;
+    margin-top: 6px;
+    border-radius: 10%;
+}
+
+.d-score {
+    text-align: center;
+}
+
+.d-score-box {
+    display: inline-block;
+    margin: 0 10%;
+    width: 18%;
+}
+
+.d-button-box {
+    display: inline-block;
+    text-align: center;
+    width: 18%;
+}
+
+.d-roll-button {
+    display: block;
+    margin: 8%;
+    padding: 0 25px;
+}
+
+.d-reset-button {
+    display: block;
+    margin: 8%;
+    padding: 0 20px;
+    margin-top: 20px;
+}
+
+#d-player-one-score {
+    font-size: 1.5rem;
+}
+
+#d-player-two-score {
+    font-size: 1.5rem;
+}
+
+.d-player-title {
+    font-size: 1.5rem;
+}
+
+
+
+/* ----------------------end of dice roll--------------------------- */
+/* -----------------------drench------------------------------------ */
+
+
+
+.r-top-banner {
+    text-align: center;
+    margin: auto;
+}
+
+.r-box {
+    width: 20px;
+    height: 20px;
+    background-color: red;
+    display: inline-block;
+}
+
+#r-grid-container {
+    display: inline-block;
+    width: 280px;
+    height: 280px;
+    margin: auto;
+}
+
+#r-button-container {
+    background: lightgray;
+    width: 280px;
+    height: 80px;
+    margin: auto;
+}
+
+.r-color-buttons {
+    border: 5px double darkgrey;
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    margin: 6px 8%;
+}
+
+#green {
+    background-color: green;
+}
+
+#blue {
+    background-color: blue;
+}
+
+#purple {
+    background-color: purple;
+}
+
+#white {
+    background-color: white;
+}
+
+#red {
+    background-color: red;
+}
+
+#orange {
+    background-color: orange;
+}
+
+/* ----------------------end of drench------------------------------ */
+/* -----------------------tic tac toe------------------------------- */
+
+.t-board {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: blue;
+    width: 80%;    
+    height: 400px;
+    border-radius: 10%;
+    margin-left: 8%;
+}
+
+
+.t-cells {
+    width: 30%;
+    height: 30%;
+    font-size: 3rem;
+    position: relative;
+    padding-top: 50px;
+}
+
+#t-information {
+    margin: 20px auto;
+    font-size: 2rem;
+}
+
+#t1 {
+    border-bottom: 8px solid white;
+    border-right: 8px solid white;
+    border-left: 8px solid white;
+    top: 22px;
+}
+
+#t3 {
+    border-bottom: 8px solid white;
+    border-right: 8px solid white;
+    border-top: 8px solid white;
+    left: 8px;
+}
+
+#t5 {
+    border-top: 8px solid white;
+    border-left: 8px solid white;
+    border-bottom: 8px solid white;
+    right: 8px;
+}
+
+#t7 {
+    border-right: 8px solid white;
+    border-left: 8px solid white;
+    border-top: 8px solid white;
+    bottom: 22px;
+}
+
+ 
+/* --------------------end of tic tac toe--------------------------- */
+/* --------------------number guess--------------------------------- */
+
+#g-attempt-text {
+    margin-bottom: 20px;
+}
+
+#g-guess-text {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+#g-guess {
+    background-color: rgb(84, 84, 84);
+    color: white;
+    font-size: 2rem;
+    width: 100px;
+    text-align: center;
+    margin: 5px auto;
+}
+
+#g-guess-button {
+    margin: 5px auto;
+}
+
+#g-inform-user {
+    font-size: 4rem;
+    margin: 100px auto;
+    line-height: 1;
+}
+/* --------------------end of number guess-------------------------- */
+ 
