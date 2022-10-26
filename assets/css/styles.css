@@ -37,8 +37,8 @@ body {
 }
 
 .d-die {
-    width: 15%;
-    margin:  5% 7%;
+    width: 13%;
+    margin:  5% 5%;
 }
 
 #d-winner-image-one {
@@ -129,7 +129,7 @@ body {
 #r-button-container {
     background: lightgray;
     width: 280px;
-    height: 80px;
+    height: 100px;
     margin: auto;
 }
 
