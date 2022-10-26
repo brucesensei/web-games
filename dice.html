@@ -8,6 +8,21 @@ title: Dice Roll
 		<img class="d-dice-image" src="/web-games/assets/images/dice-images/dices.png" alt="dice image">
 	</div>
 
+	<div class="d-score">
+		<div class="d-score-box">
+			<p class="d-player-title">Player 1</p> 
+			<h2 id="d-player-one-score">0</h2>
+		</div>
+		
+		<div class="d-score-box">
+			<p class="d-player-title">Player 2</p> 
+			<h2 id="d-player-two-score">0</h2>
+		</div>
+	</div>
+
+
+
+
 	<div class="d-board">
 		<img id="d-winner-image-one" src="/web-games/assets/images/dice-images/winner.png" alt="winner">
 		<img id="d-image-one-die" class="d-die" src="/web-games/assets/images/dice-images/3.png" alt="rolling dice">
@@ -19,18 +34,10 @@ title: Dice Roll
 		<img id="d-winner-image-two" src="/web-games/assets/images/dice-images/winner.png" alt="winner">
 	</div>
 	
-	<div class="d-score">
-		<div class="d-score-box">
-			<p class="d-player-title">Player 1</p> 
-			<h2 id="d-player-one-score">0</h2>
-		</div>
-		<div class="d-button-box">
+
+<div class="d-button-box">
 			<button onclick="rollDice()" type="button" class="btn btn-dark btn-lg d-roll-button">Roll</button>
 			<button onclick="resetAll()" type="button" class="btn btn-danger btn-lg d-reset-button">Reset</button>
 		</div>
-		<div class="d-score-box">
-			<p class="d-player-title">Player 2</p> 
-			<h2 id="d-player-two-score">0</h2>
-		</div>
-	</div>
+
 <script src="/web-games/assets/js/dice.js"></script>
