@@ -11,8 +11,8 @@ function rollDice() {
     winnerTwoIcon.style.visibility = "hidden";
     var p1Roll = getRandom();
     var p2Roll = getRandom();
-    var p1DieImage = "/assets/images/dice-images/" + p1Roll + ".png";
-    var p2DieImage = "/assets/images/dice-images/" + p2Roll + ".png";
+    var p1DieImage = "/web-games/assets/images/dice-images/" + p1Roll + ".png";
+    var p2DieImage = "/web-games/assets/images/dice-images/" + p2Roll + ".png";
     document.getElementById("d-image-one-die").src = p1DieImage;
     document.getElementById("d-image-two-die").src = p2DieImage;
     var winner = chooseWinner(p1Roll, p2Roll);
