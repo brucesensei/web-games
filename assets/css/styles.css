@@ -201,6 +201,14 @@ body {
     top: 22px;
 }
 
+#t0 {
+    top: 22px;
+}
+
+#t2 {
+    top: 22px;
+}
+
 #t3 {
     border-bottom: 8px solid white;
     border-right: 8px solid white;
@@ -222,7 +230,14 @@ body {
     bottom: 22px;
 }
 
- 
+#t6 {
+    bottom: 22px;
+}
+
+#t8 {
+    bottom: 22px;
+}
+
 /* --------------------end of tic tac toe--------------------------- */
 /* --------------------number guess--------------------------------- */
 
